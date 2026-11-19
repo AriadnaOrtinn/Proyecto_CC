@@ -21,7 +21,7 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 - Servomotor SG90
 - LED
 - Cables de protoboard o de tipo jumper
-
+- Cable de 
 
 ### GCS
 - Placa Arduino UNO
@@ -36,35 +36,29 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
   - GND --> GND
   - DATA --> Pin 2
 
-
   Sensor de ultrasonidos HC-SR04
   - VCC --> 5V
   - GND --> GND
   - TRIG --> Pin 6
   - ECHO --> Pin 7
 
-
   Servomotor SG90
   - VCC --> 5V
   - GND --> GND
   - SIGNAL --> Pin 9
 
-
   LED Indicador
   - Ánodo (Extremo largo, positivo +) --> Pin 13
   - Cátodo (Extremo corto, negativo -) --> GND
-
 
   Módulo de comunicación SoftwareSerial
   - RX --> Pin 10
   - TX --> Pin 11
 
-
 ### GCS
  LED Indicador
   - Ánodo (Extremo largo, positivo +) --> Pin 13
   - Cátodo (Extremo corto, negativo -) --> GND
-
 
   Módulo de comunicación SoftwareSerial
   - RX --> Pin 10
@@ -75,11 +69,9 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 ### SAT
 - SAT_2.ino
 
-
 ### GCS
 - GCS_2.ino
 - Interfaz_2.py
-
 
 ### Tests Unitarios
 - UNIT_COMMS_SAT.ino
