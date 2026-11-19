@@ -6,12 +6,15 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 
 ## Índice
 
+
 ## Caracterísitcas de la versión: 2.0
+
 
 ## Arquitectura del sistema
 
+
 ## Hardware usado
-# SAT
+### SAT
 - Placa Arduino UNO
 - Sensor de temperatura y humedad DHT11
 - Sensor de ultrasonidos HC-SR04
@@ -19,17 +22,20 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 - LED
 - Cables de protoboard o de tipo jumper
 
-# GCS
+
+### GCS
 - Placa Arduino UNO
 - LED
 - Cables de protoboard o de tipo jumper
 
+
 ## Conexiones del hardware
-# SAT
+### SAT
   Sensor de temperatura y humedad DHT11:
   - VCC --> 5V
   - GND --> GND
   - DATA --> Pin 2
+
 
   Sensor de ultrasonidos HC-SR04
   - VCC --> 5V
@@ -37,37 +43,45 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
   - TRIG --> Pin 6
   - ECHO --> Pin 7
 
+
   Servomotor SG90
   - VCC --> 5V
   - GND --> GND
   - SIGNAL --> Pin 9
 
+
   LED Indicador
   - Ánodo (Extremo largo, positivo +) --> Pin 13
   - Cátodo (Extremo corto, negativo -) --> GND
 
+
   Módulo de comunicación SoftwareSerial
   - RX --> Pin 10
   - TX --> Pin 11
 
-# GCS
+
+### GCS
  LED Indicador
   - Ánodo (Extremo largo, positivo +) --> Pin 13
   - Cátodo (Extremo corto, negativo -) --> GND
 
+
   Módulo de comunicación SoftwareSerial
   - RX --> Pin 10
   - TX --> Pin 11
 
+
 ## Scripts y tests unitarios
-# SAT
+### SAT
 - SAT_2.ino
 
-# GCS
+
+### GCS
 - GCS_2.ino
 - Interfaz_2.py
 
-# Tests Unitarios
+
+### Tests Unitarios
 - UNIT_COMMS_SAT.ino
 - UNIT_COMMS_GCS.ino
 - UNIT_DHT11
@@ -76,13 +90,16 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 - UNIT_RADAR_SWEEP
 - UNIT_SERVO
 
+
 ## Protocolo de codificación de los mensajes
 <img width="489" height="395" alt="ProtocoloCodificacionMensajesV2" src="https://github.com/user-attachments/assets/f9c00148-850c-447a-9f9f-44153f48d438" />
 
-## Recorrido por las versiones
-[Vídeo de la versión 1](https://youtu.be/EAymErKZG9A?si=buH1tQA3QK20ozV5)
 
-## Uso de la IA
+## Recorrido por las versiones documentado en vídeos:
+- [Vídeo de la versión 1](https://youtu.be/EAymErKZG9A?si=buH1tQA3QK20ozV5)
+
+
+## Uso de la inteligencia artifical (IA)
 En este proyecto, se ha hecho un uso de la inteligencia artificial como herramienta para diversas tareas:
 - Organizar ideas
 - Establecer protocolos
