@@ -45,7 +45,7 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
   Servomotor SG90
   - VCC --> 5V
   - GND --> GND
-  - SIGNAL --> Pin 9
+  - SIGNAL --> Pin 3
 
   LED Indicador
   - Ánodo (Extremo largo, positivo +) --> Pin 13
