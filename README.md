@@ -89,6 +89,7 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 
 ## Recorrido por las versiones documentado en vídeos:
 - [Vídeo de la versión 1](https://youtu.be/EAymErKZG9A?si=buH1tQA3QK20ozV5)
+- [Vídeo de la versión 1](https://youtu.be/waNqrN2JaJw?si=5WFZBkNw5Bl8qWMY)
 
 
 ## Uso de la inteligencia artifical (IA)
