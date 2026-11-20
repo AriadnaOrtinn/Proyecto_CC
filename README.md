@@ -93,9 +93,9 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
 
 ## Uso de la inteligencia artifical (IA)
 En este proyecto, se ha hecho un uso de la inteligencia artificial como herramienta para diversas tareas:
-- Organizar ideas
-- Establecer protocolos
-- Estructurar y ordenar los códigos más largos
-- Aprender extras que no aparecían de forma directa en la guía del proyecto
+- Organizar ideas: desde qué queremos que haga el SAT y la GCS, hasta buscar el protocolo de codificación de mensajes más intuitivo para el prograamdor/a
+- Estructurar, ordenar y revisar los códigos más largos y propensos al desorden
+- Buscar e implementar soluciones para los problemas causados por las funciones de distintas librerías de arduino pisándose las unas a las otras
+- Aprender lo que no aparecía de forma explícita en la guía del proyecto
 
 
