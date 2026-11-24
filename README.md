@@ -54,6 +54,7 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
   Módulo de comunicación SoftwareSerial
   - RX --> Pin 10
   - TX --> Pin 11
+  - GND --> GND (GCS)
 
 ### GCS
  LED Indicador
@@ -63,6 +64,7 @@ Consiste en un sistema de comunicación entre un satélite (SAT) y una estación
   Módulo de comunicación SoftwareSerial
   - RX --> Pin 10
   - TX --> Pin 11
+  - GND --> GND (SAT)
 
 
 ## Scripts y tests unitarios
